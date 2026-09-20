@@ -1,0 +1,38 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+coverage.txt
+
+# Go workspace
+go.work
+go.work.sum
+
+# Lab 产生的临时文件
+*.log
+*.tmp
+mr-out-*
+mrt.*
+*.snap
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large binary artifacts（实验阶段再启用）
+# assets/*.pdf
+# assets/*.zip
